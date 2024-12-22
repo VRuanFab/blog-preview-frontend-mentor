@@ -30,7 +30,7 @@ function App() {
             </div>
 
             <div className='flex align-middle text-center font-font-weight-base-more gap-2'>
-              <img src="../src/assets/images/image-avatar.webp" alt="" className='w-10 h-fit'/>
+              <img src="src\assets\images\image-avatar.webp" alt="" className='w-10 h-fit'/>
               <p className='self-center'> Greg Hooper </p>
             </div>
 
