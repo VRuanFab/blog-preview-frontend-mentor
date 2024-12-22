@@ -1,4 +1,6 @@
 import './App.css'
+import ilustracao from './assets/images/ilustracao.svg'
+import image_avatar from './assets/images/image-avatar.webp'
 
 function App() {
 
@@ -10,7 +12,7 @@ function App() {
 
           <div className='bg-white-normal flex flex-col self-center p-[1.4rem] rounded-2xl border-2 border-gray-more gap-[1.4rem] w-[25rem] max-md:w-[20.7rem] dropaShadow'>
             <div>
-              <img src="../src/assets/images/ilustracao.svg" alt="" className='rounded-xl w-full'/>
+              <img src={ilustracao} alt="" className='rounded-xl w-full'/>
             </div>
 
             <div className='flex flex-col gap-[1.1rem]'>
@@ -30,7 +32,7 @@ function App() {
             </div>
 
             <div className='flex align-middle text-center font-font-weight-base-more gap-2'>
-              <img src="src\assets\images\image-avatar.webp" alt="" className='w-10 h-fit'/>
+              <img src={image_avatar} alt="" className='w-10 h-fit'/>
               <p className='self-center'> Greg Hooper </p>
             </div>
 
